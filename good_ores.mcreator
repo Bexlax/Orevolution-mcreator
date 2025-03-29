@@ -1,0 +1,5531 @@
+{
+  "mod_elements": [
+    {
+      "name": "CantBreakBlockText",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cant_break_block_text",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/CantBreakBlockTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/QOL"
+    },
+    {
+      "name": "AddTooltipForTier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_tooltip_for_tier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/AddTooltipForTierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Procedures/QOL"
+    },
+    {
+      "name": "GoodOresConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "good_ores_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/configuration/GoodOresConfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/platinum_ingot.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_ingot.json",
+          "src/main/java/net/mcreator/goodores/item/PlatinumIngotItem.java"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "PlatinumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/PlatinumPickaxeItem.java",
+          "src/main/resources/assets/good_ores/models/item/platinum_pickaxe.json",
+          "src/main/resources/assets/good_ores/items/platinum_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "PlatinumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/PlatinumAxeItem.java",
+          "src/main/resources/assets/good_ores/models/item/platinum_axe.json",
+          "src/main/resources/assets/good_ores/items/platinum_axe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "PlatinumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/platinum_sword.json",
+          "src/main/resources/assets/good_ores/items/platinum_sword.json",
+          "src/main/java/net/mcreator/goodores/item/PlatinumSwordItem.java"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "PlatinumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/platinum_shovel.json",
+          "src/main/java/net/mcreator/goodores/item/PlatinumShovelItem.java",
+          "src/main/resources/assets/good_ores/models/item/platinum_shovel.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "PlatinumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/PlatinumHoeItem.java",
+          "src/main/resources/assets/good_ores/models/item/platinum_hoe.json",
+          "src/main/resources/assets/good_ores/items/platinum_hoe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "PlatinumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "PlatinumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "PlatinumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "PlatinumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "PlatinumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "PlatinumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/equipment/platinum_armor.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_armor_boots.json",
+          "src/main/resources/assets/good_ores/items/platinum_armor_chestplate.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_armor_leggings.json",
+          "src/main/resources/assets/good_ores/items/platinum_armor_helmet.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_armor_helmet.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_armor_chestplate.json",
+          "src/main/resources/assets/good_ores/items/platinum_armor_boots.json",
+          "src/main/java/net/mcreator/goodores/item/PlatinumArmorItem.java",
+          "src/main/resources/assets/good_ores/items/platinum_armor_leggings.json"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "PlatinumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "PlatinumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "PlatinumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "PlatinumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "PlatinumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/PlatinumNuggetItem.java",
+          "src/main/resources/assets/good_ores/items/platinum_nugget.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_nugget.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "RawPlatinum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/raw_platinum.json",
+          "src/main/resources/assets/good_ores/models/item/raw_platinum.json",
+          "src/main/java/net/mcreator/goodores/item/RawPlatinumItem.java"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "PlatinumToolsEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_tools_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/PlatinumToolsEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/ToolEffects"
+    },
+    {
+      "name": "PlatinumRelatedTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "platinum_related_trades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/TinIngotItem.java",
+          "src/main/resources/assets/good_ores/models/item/tin_ingot.json",
+          "src/main/resources/assets/good_ores/items/tin_ingot.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "TinPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/TinPickaxeItem.java",
+          "src/main/resources/assets/good_ores/items/tin_pickaxe.json",
+          "src/main/resources/assets/good_ores/models/item/tin_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TinAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tin_axe.json",
+          "src/main/java/net/mcreator/goodores/item/TinAxeItem.java",
+          "src/main/resources/assets/good_ores/items/tin_axe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TinSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tin_sword.json",
+          "src/main/resources/assets/good_ores/items/tin_sword.json",
+          "src/main/java/net/mcreator/goodores/item/TinSwordItem.java"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "TinShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/tin_shovel.json",
+          "src/main/resources/assets/good_ores/models/item/tin_shovel.json",
+          "src/main/java/net/mcreator/goodores/item/TinShovelItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TinHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tin_hoe.json",
+          "src/main/java/net/mcreator/goodores/item/TinHoeItem.java",
+          "src/main/resources/assets/good_ores/items/tin_hoe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TinPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "TinAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "TinSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "TinShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "TinHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "ModdedOreProgression",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_ore_progression",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/ModdedOreProgressionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "TinToolsEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_tools_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/TinToolsEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/ToolEffects"
+    },
+    {
+      "name": "TinNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/TinNuggetItem.java",
+          "src/main/resources/assets/good_ores/models/item/tin_nugget.json",
+          "src/main/resources/assets/good_ores/items/tin_nugget.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "RawTin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/raw_tin.json",
+          "src/main/resources/assets/good_ores/models/item/raw_tin.json",
+          "src/main/java/net/mcreator/goodores/item/RawTinItem.java"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromBlastingRawPlatinum",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_blasting_raw_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_blasting_raw_platinum.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromSmeltingRawPlatinum",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_smelting_raw_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_smelting_raw_platinum.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromPlatinumNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_platinum_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_platinum_nugget.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumNuggetFromPlatinumIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_nugget_from_platinum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_nugget_from_platinum_ingot.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumNuggetFromBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "platinum_nugget_from_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_nugget_from_blasting.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumNuggetFromSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "platinum_nugget_from_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_nugget_from_smelting.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/blockstates/tin_ore.json",
+          "src/main/resources/assets/good_ores/models/block/tin_ore.json",
+          "src/main/java/net/mcreator/goodores/block/TinOreBlock.java",
+          "src/main/resources/assets/good_ores/items/tin_ore.json",
+          "src/main/resources/assets/good_ores/models/item/tin_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "DeepslateTinOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/deepslate_tin_ore.json",
+          "src/main/resources/assets/good_ores/models/item/deepslate_tin_ore.json",
+          "src/main/resources/assets/good_ores/blockstates/deepslate_tin_ore.json",
+          "src/main/java/net/mcreator/goodores/block/DeepslateTinOreBlock.java",
+          "src/main/resources/assets/good_ores/models/block/deepslate_tin_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/block/platinum_ore.json",
+          "src/main/resources/assets/good_ores/items/platinum_ore.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_ore.json",
+          "src/main/java/net/mcreator/goodores/block/PlatinumOreBlock.java",
+          "src/main/resources/assets/good_ores/blockstates/platinum_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "DeepslatePlatinumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/block/deepslate_platinum_ore.json",
+          "src/main/resources/assets/good_ores/items/deepslate_platinum_ore.json",
+          "src/main/resources/assets/good_ores/blockstates/deepslate_platinum_ore.json",
+          "src/main/resources/assets/good_ores/models/item/deepslate_platinum_ore.json",
+          "src/main/java/net/mcreator/goodores/block/DeepslatePlatinumOreBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "TinIngotFromBlastingRawTin",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_blasting_raw_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_blasting_raw_tin.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinIngotFromSmeltingRawTin",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_smelting_raw_tin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_smelting_raw_tin.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinIngotFromTinNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_tin_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_tin_nugget.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinNuggetFromTinIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_nugget_from_tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_nugget_from_tin_ingot.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinNuggetFromBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tin_nugget_from_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_nugget_from_blasting.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinNuggetFromSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tin_nugget_from_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_nugget_from_smelting.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromBlastingPlatinumOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_blasting_platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_blasting_platinum_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromSmeltingPlatinumOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_smelting_platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_smelting_platinum_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromBlastingDeepslatePlatinumOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_blasting_deepslate_platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_blasting_deepslate_platinum_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromSmeltingDeepslatePlatinumOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_smelting_deepslate_platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_smelting_deepslate_platinum_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinIngotFromSmeltingTinOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_smelting_tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_smelting_tin_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinIngotFromSmeltingDeepslateTinOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_smelting_deepslate_tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_smelting_deepslate_tin_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinIngotFromBlastingTinOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_blasting_tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_blasting_tin_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinIngotFromBlastingDeepslateTinOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_blasting_deepslate_tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_blasting_deepslate_tin_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinRelatedTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tin_related_trades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
+    },
+    {
+      "name": "DontHarvestBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dont_harvest_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/DontHarvestBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "StopBreakOre",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stop_break_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/StopBreakOreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "VanillaToolsPowersAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_tools_powers_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VanillaToolsPowersAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "isvanillacritical",
+            "type": "logic"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "TinToolsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_tools_tooltip",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/TinToolsTooltipProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Others/Mod Tooltips"
+    },
+    {
+      "name": "PlatinumToolsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_tools_tooltip",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/PlatinumToolsTooltipProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Others/Mod Tooltips"
+    },
+    {
+      "name": "GoldPickaxeEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_pickaxe_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/potion/GoldPickaxeEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "RawTungsten",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/RawTungstenItem.java",
+          "src/main/resources/assets/good_ores/models/item/raw_tungsten.json",
+          "src/main/resources/assets/good_ores/items/raw_tungsten.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/tungsten_ingot.json",
+          "src/main/resources/assets/good_ores/models/item/tungsten_ingot.json",
+          "src/main/java/net/mcreator/goodores/item/TungstenIngotItem.java"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "TungstenNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/tungsten_nugget.json",
+          "src/main/java/net/mcreator/goodores/item/TungstenNuggetItem.java",
+          "src/main/resources/assets/good_ores/models/item/tungsten_nugget.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/tungsten_ore.json",
+          "src/main/resources/assets/good_ores/models/item/tungsten_ore.json",
+          "src/main/resources/assets/good_ores/blockstates/tungsten_ore.json",
+          "src/main/resources/assets/good_ores/models/block/tungsten_ore.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/tungsten_ore.json",
+          "src/main/java/net/mcreator/goodores/block/TungstenOreBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "RawTinBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/blockstates/raw_tin_block.json",
+          "src/main/java/net/mcreator/goodores/block/RawTinBlockBlock.java",
+          "src/main/resources/assets/good_ores/models/item/raw_tin_block.json",
+          "src/main/resources/assets/good_ores/items/raw_tin_block.json",
+          "src/main/resources/assets/good_ores/models/block/raw_tin_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/raw_tin_block.json"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "RawPlatinumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/raw_platinum_block.json",
+          "src/main/resources/assets/good_ores/models/item/raw_platinum_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/raw_platinum_block.json",
+          "src/main/resources/assets/good_ores/blockstates/raw_platinum_block.json",
+          "src/main/java/net/mcreator/goodores/block/RawPlatinumBlockBlock.java",
+          "src/main/resources/assets/good_ores/models/block/raw_platinum_block.json"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "RawTungstenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/raw_tungsten_block.json",
+          "src/main/java/net/mcreator/goodores/block/RawTungstenBlockBlock.java",
+          "src/main/resources/data/good_ores/loot_table/blocks/raw_tungsten_block.json",
+          "src/main/resources/assets/good_ores/items/raw_tungsten_block.json",
+          "src/main/resources/assets/good_ores/blockstates/raw_tungsten_block.json",
+          "src/main/resources/assets/good_ores/models/block/raw_tungsten_block.json"
+        ]
+      },
+      "path": "~/Blocks/Natural Blocks"
+    },
+    {
+      "name": "ReinforcedNetheriteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reinforced_netherite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/equipment/reinforced_netherite_armor.json",
+          "src/main/resources/assets/good_ores/items/reinforced_netherite_armor_boots.json",
+          "src/main/resources/assets/good_ores/items/reinforced_netherite_armor_chestplate.json",
+          "src/main/resources/assets/good_ores/models/item/reinforced_netherite_armor_leggings.json",
+          "src/main/resources/assets/good_ores/items/reinforced_netherite_armor_leggings.json",
+          "src/main/resources/assets/good_ores/models/item/reinforced_netherite_armor_helmet.json",
+          "src/main/resources/assets/good_ores/models/item/reinforced_netherite_armor_chestplate.json",
+          "src/main/resources/assets/good_ores/models/item/reinforced_netherite_armor_boots.json",
+          "src/main/java/net/mcreator/goodores/item/ReinforcedNetheriteArmorItem.java",
+          "src/main/resources/assets/good_ores/items/reinforced_netherite_armor_helmet.json"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "RawTinBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/raw_tin_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "RawPlatinumBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/raw_platinum_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "RawTungstenBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/raw_tungsten_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "RawPlatinumFromRawPlatinumBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum_from_raw_platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/raw_platinum_from_raw_platinum_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "RawTinFromRawTinBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_from_raw_tin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/raw_tin_from_raw_tin_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "RawTungstenFromRawTungstenBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_from_raw_tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/raw_tungsten_from_raw_tungsten_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "ReinforcedNetheriteArmorEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_netherite_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/ReinforcedNetheriteArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/ArmorEffects"
+    },
+    {
+      "name": "TungstenPlaque",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_plaque",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/TungstenPlaqueItem.java",
+          "src/main/resources/assets/good_ores/models/item/tungsten_plaque.json",
+          "src/main/resources/assets/good_ores/items/tungsten_plaque.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "PlantPlacementCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/PlantPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others/Global Conditions"
+    },
+    {
+      "name": "OnBoneMealSuccessCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_bone_meal_success_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/OnBoneMealSuccessConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others/Global Conditions"
+    },
+    {
+      "name": "BoneMealSuccessPlantCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_meal_success_plant_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/BoneMealSuccessPlantConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others/Global Conditions"
+    },
+    {
+      "name": "OnTickUpdatePlants",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_tick_update_plants",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/OnTickUpdatePlantsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others/Global Conditions"
+    },
+    {
+      "name": "LivingPlantBreak",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "living_plant_break",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/LivingPlantBreakProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "LivingstonePlant",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "livingstone_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/block/LivingstonePlantBlock.java",
+          "src/main/resources/assets/good_ores/blockstates/livingstone_plant.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_plant.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/livingstone_plant.json",
+          "src/main/resources/assets/good_ores/models/block/livingstone_plant.json",
+          "src/main/resources/assets/good_ores/items/livingstone_plant.json"
+        ]
+      },
+      "path": "~/Blocks/Functional Blocks"
+    },
+    {
+      "name": "LivingstoneShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/livingstone_shard.json",
+          "src/main/java/net/mcreator/goodores/item/LivingstoneShardItem.java",
+          "src/main/resources/assets/good_ores/items/livingstone_shard.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "LivingstonePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/livingstone_pickaxe.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_pickaxe.json",
+          "src/main/java/net/mcreator/goodores/item/LivingstonePickaxeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "LivingstoneAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/LivingstoneAxeItem.java",
+          "src/main/resources/assets/good_ores/items/livingstone_axe.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_axe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "LivingstoneSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/LivingstoneSwordItem.java",
+          "src/main/resources/assets/good_ores/items/livingstone_sword.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_sword.json"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "LivingstoneShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/livingstone_shovel.json",
+          "src/main/resources/assets/good_ores/items/livingstone_shovel.json",
+          "src/main/java/net/mcreator/goodores/item/LivingstoneShovelItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "LivingstoneHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/LivingstoneHoeItem.java",
+          "src/main/resources/assets/good_ores/items/livingstone_hoe.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_hoe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "LivingstonePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "LivingstoneAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "LivingstoneSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "LivingstoneShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "LivingstoneHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "LivingstoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/blockstates/livingstone_block.json",
+          "src/main/java/net/mcreator/goodores/block/LivingstoneBlockBlock.java",
+          "src/main/resources/assets/good_ores/models/block/livingstone_block.json",
+          "src/main/resources/assets/good_ores/items/livingstone_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/livingstone_block.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "LivingstoneArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/livingstone_armor_leggings.json",
+          "src/main/resources/assets/good_ores/equipment/livingstone_armor.json",
+          "src/main/resources/assets/good_ores/items/livingstone_armor_boots.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_armor_boots.json",
+          "src/main/resources/assets/good_ores/items/livingstone_armor_helmet.json",
+          "src/main/resources/assets/good_ores/items/livingstone_armor_leggings.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_armor_helmet.json",
+          "src/main/resources/assets/good_ores/items/livingstone_armor_chestplate.json",
+          "src/main/resources/assets/good_ores/models/item/livingstone_armor_chestplate.json",
+          "src/main/java/net/mcreator/goodores/item/LivingstoneArmorItem.java"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "LivingstoneArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "LivingstoneArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "LivingstoneArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "LivingstoneArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "LivingstoneBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "LivingstoneShardFromLivingstoneBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_shard_from_livingstone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/livingstone_shard_from_livingstone_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "DropLivingstoneSeed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_livingstone_seed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/DropLivingstoneSeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "TungstenPlaqueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_plaque_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_plaque_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TinOrePlacement",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/neoforge/biome_modifier/tin_ore_placement_biome_modifier.json",
+          "src/main/resources/data/good_ores/worldgen/placed_feature/tin_ore_placement.json",
+          "src/main/resources/data/good_ores/worldgen/configured_feature/tin_ore_placement.json",
+          "src/main/java/net/mcreator/goodores/world/features/TinOrePlacementFeature.java"
+        ]
+      },
+      "path": "~/Placement Features/Ores"
+    },
+    {
+      "name": "PlatinumOrePlacement",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/worldgen/placed_feature/platinum_ore_placement.json",
+          "src/main/resources/data/good_ores/neoforge/biome_modifier/platinum_ore_placement_biome_modifier.json",
+          "src/main/resources/data/good_ores/worldgen/configured_feature/platinum_ore_placement.json",
+          "src/main/java/net/mcreator/goodores/world/features/PlatinumOrePlacementFeature.java"
+        ]
+      },
+      "path": "~/Placement Features/Ores"
+    },
+    {
+      "name": "TungstenOrePlacement",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/world/features/TungstenOrePlacementFeature.java",
+          "src/main/resources/data/good_ores/worldgen/configured_feature/tungsten_ore_placement.json",
+          "src/main/resources/data/good_ores/worldgen/placed_feature/tungsten_ore_placement.json",
+          "src/main/resources/data/good_ores/neoforge/biome_modifier/tungsten_ore_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Placement Features/Ores"
+    },
+    {
+      "name": "CheckForTinPlacementConfig",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_for_tin_placement_config",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/CheckForTinPlacementConfigProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Conditions"
+    },
+    {
+      "name": "CheckForPlatinumPlacementConfig",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_for_platinum_placement_config",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/CheckForPlatinumPlacementConfigProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Conditions"
+    },
+    {
+      "name": "CheckForTungstenPlacementConfig",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_for_tungsten_placement_config",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/CheckForTungstenPlacementConfigProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Conditions"
+    },
+    {
+      "name": "TungstenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tungsten_block.json",
+          "src/main/resources/assets/good_ores/blockstates/tungsten_block.json",
+          "src/main/java/net/mcreator/goodores/block/TungstenBlockBlock.java",
+          "src/main/resources/data/good_ores/loot_table/blocks/tungsten_block.json",
+          "src/main/resources/assets/good_ores/items/tungsten_block.json",
+          "src/main/resources/assets/good_ores/models/block/tungsten_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "TungstenBrisk",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_brisk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/tungsten_brisk.json",
+          "src/main/java/net/mcreator/goodores/block/TungstenBriskBlock.java",
+          "src/main/resources/assets/good_ores/models/block/tungsten_brisk.json",
+          "src/main/resources/assets/good_ores/models/item/tungsten_brisk.json",
+          "src/main/resources/assets/good_ores/blockstates/tungsten_brisk.json",
+          "src/main/resources/assets/good_ores/items/tungsten_brisk.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "PlatinumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/platinum_block.json",
+          "src/main/resources/assets/good_ores/blockstates/platinum_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/platinum_block.json",
+          "src/main/resources/assets/good_ores/items/platinum_block.json",
+          "src/main/resources/assets/good_ores/models/block/platinum_block.json",
+          "src/main/java/net/mcreator/goodores/block/PlatinumBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "PlatinumBars",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_bars",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/block/platinum_bars_side.json",
+          "src/main/resources/assets/good_ores/items/platinum_bars.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/platinum_bars.json",
+          "src/main/resources/assets/good_ores/models/block/platinum_bars_side_alt.json",
+          "src/main/java/net/mcreator/goodores/block/PlatinumBarsBlock.java",
+          "src/main/resources/assets/good_ores/models/block/platinum_bars_post.json",
+          "src/main/resources/assets/good_ores/blockstates/platinum_bars.json",
+          "src/main/resources/assets/good_ores/models/block/platinum_bars_noside.json",
+          "src/main/resources/assets/good_ores/models/block/platinum_bars_noside_alt.json",
+          "src/main/resources/assets/good_ores/models/item/platinum_bars.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/block/TinBlockBlock.java",
+          "src/main/resources/assets/good_ores/blockstates/tin_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/tin_block.json",
+          "src/main/resources/assets/good_ores/models/item/tin_block.json",
+          "src/main/resources/assets/good_ores/models/block/tin_block.json",
+          "src/main/resources/assets/good_ores/items/tin_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "TinBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "TungstenBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "PlatinumBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "PlatinumBarsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_bars_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_bars_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "TungstenBrickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_brick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "TinIngotFromTinBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_from_tin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_ingot_from_tin_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TungstenIngotFromTungstenBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_from_tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_ingot_from_tungsten_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "PlatinumIngotFromPlatinumBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_from_platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_ingot_from_platinum_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TungstenIngotFromSmeltingRawTungsten",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_from_smelting_raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_ingot_from_smelting_raw_tungsten.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TungstenIngotFromBlastingRawTungsten",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_from_blasting_raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_ingot_from_blasting_raw_tungsten.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TungstenIngotFromSmeltingTungstenOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_from_smelting_tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_ingot_from_smelting_tungsten_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TungstenIngotFromBlastingTungstenOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_from_blasting_tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_ingot_from_blasting_tungsten_ore.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TungstenIngotFromSmeltingTungstenPlaque",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_from_smelting_tungsten_plaque",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_ingot_from_smelting_tungsten_plaque.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "TungstenIngotFromBlastingTungstenPlaque",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_from_blasting_tungsten_plaque",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tungsten_ingot_from_blasting_tungsten_plaque.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "LivingstoneToolsEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_tools_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/LivingstoneToolsEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/ToolEffects"
+    },
+    {
+      "name": "LivingstoneArmorEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/LivingstoneArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/ArmorEffects"
+    },
+    {
+      "name": "PlantEquipmentTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_equipment_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/PlantEquipmentTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others"
+    },
+    {
+      "name": "ReinforcedNetheriteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_netherite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/reinforced_netherite_block.json",
+          "src/main/resources/assets/good_ores/items/reinforced_netherite_block.json",
+          "src/main/resources/assets/good_ores/models/item/reinforced_netherite_block.json",
+          "src/main/resources/assets/good_ores/models/block/reinforced_netherite_block.json",
+          "src/main/java/net/mcreator/goodores/block/ReinforcedNetheriteBlockBlock.java",
+          "src/main/resources/assets/good_ores/blockstates/reinforced_netherite_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "RightClickNetheriteBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_netherite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/RightClickNetheriteBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others"
+    },
+    {
+      "name": "RightClickReinforcedNetheriteBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_reinforced_netherite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/RightClickReinforcedNetheriteBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "actionresulttype"
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "TinPickaxeAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/advancement/tin_pickaxe_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PlatinumOreAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/advancement/platinum_ore_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HaveAllOresAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "have_all_ores_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/advancement/have_all_ores_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "VerditePlant",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "verdite_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/blockstates/verdite_plant.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/verdite_plant.json",
+          "src/main/resources/assets/good_ores/items/verdite_plant.json",
+          "src/main/resources/assets/good_ores/models/block/verdite_plant.json",
+          "src/main/java/net/mcreator/goodores/block/VerditePlantBlock.java",
+          "src/main/resources/assets/good_ores/models/item/verdite_plant.json"
+        ]
+      },
+      "path": "~/Blocks/Functional Blocks"
+    },
+    {
+      "name": "VerditeNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/VerditeNuggetItem.java",
+          "src/main/resources/assets/good_ores/items/verdite_nugget.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_nugget.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "VerditeIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/verdite_ingot.json",
+          "src/main/java/net/mcreator/goodores/item/VerditeIngotItem.java",
+          "src/main/resources/assets/good_ores/items/verdite_ingot.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "VerditePlantBreak",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_plant_break",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VerditePlantBreakProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "VerditePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/verdite_pickaxe.json",
+          "src/main/java/net/mcreator/goodores/item/VerditePickaxeItem.java",
+          "src/main/resources/assets/good_ores/items/verdite_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "VerditeAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/verdite_axe.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_axe.json",
+          "src/main/java/net/mcreator/goodores/item/VerditeAxeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "VerditeSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/verdite_sword.json",
+          "src/main/resources/assets/good_ores/items/verdite_sword.json",
+          "src/main/java/net/mcreator/goodores/item/VerditeSwordItem.java"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "VerditeShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/VerditeShovelItem.java",
+          "src/main/resources/assets/good_ores/models/item/verdite_shovel.json",
+          "src/main/resources/assets/good_ores/items/verdite_shovel.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "VerditeHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/verdite_hoe.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_hoe.json",
+          "src/main/java/net/mcreator/goodores/item/VerditeHoeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "VerditePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "VerditeAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "VerditeSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "VerditeShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "VerditeHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "VerditeIngotFromVerditeNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_ingot_from_verdite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_ingot_from_verdite_nugget.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "VerditeNuggetFromVerditeIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_nugget_from_verdite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_nugget_from_verdite_ingot.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "LivingstoneSeedAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_seed_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/advancement/livingstone_seed_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DropVerditeOre",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_verdite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/DropVerditeOreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "PlantOreHoeHarvestCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_ore_hoe_harvest_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/PlantOreHoeHarvestConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others/Global Conditions"
+    },
+    {
+      "name": "VerditeToolsRegen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_tools_regen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VerditeToolsRegenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/ToolEffects"
+    },
+    {
+      "name": "VerditeToolsEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_tools_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VerditeToolsEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "isvanillacritical",
+            "type": "logic"
+          }
+        ]
+      },
+      "path": "~/Procedures/ToolEffects"
+    },
+    {
+      "name": "VerditeArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/VerditeArmorItem.java",
+          "src/main/resources/assets/good_ores/items/verdite_armor_helmet.json",
+          "src/main/resources/assets/good_ores/equipment/verdite_armor.json",
+          "src/main/resources/assets/good_ores/items/verdite_armor_leggings.json",
+          "src/main/resources/assets/good_ores/items/verdite_armor_boots.json",
+          "src/main/resources/assets/good_ores/items/verdite_armor_chestplate.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_armor_chestplate.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_armor_leggings.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_armor_helmet.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_armor_boots.json"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "VerditeArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "VerditeArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "VerditeArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "VerditeArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "VerditeArmorEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VerditeArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/ArmorEffects"
+    },
+    {
+      "name": "VanillaArmorPowers",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_armor_powers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VanillaArmorPowersProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "VanillaToolsPowerMining",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_tools_power_mining",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VanillaToolsPowerMiningProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "VerditeToolsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_tools_tooltip",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VerditeToolsTooltipProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Others/Mod Tooltips"
+    },
+    {
+      "name": "LivingstoneToolsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livingstone_tools_tooltip",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/LivingstoneToolsTooltipProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Others/Mod Tooltips"
+    },
+    {
+      "name": "VerditeRoots",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_roots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/block/VerditeRootsBlock.java",
+          "src/main/resources/assets/good_ores/blockstates/verdite_roots.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_roots.json",
+          "src/main/resources/assets/good_ores/models/block/verdite_roots.json",
+          "src/main/resources/assets/good_ores/items/verdite_roots.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/verdite_roots.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "VerditeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/block/verdite_block.json",
+          "src/main/java/net/mcreator/goodores/block/VerditeBlockBlock.java",
+          "src/main/resources/assets/good_ores/models/item/verdite_block.json",
+          "src/main/resources/assets/good_ores/blockstates/verdite_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/verdite_block.json",
+          "src/main/resources/assets/good_ores/items/verdite_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "VerditeBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "VerditeRootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_roots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_roots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "VerditeIngotFromVerditeBLock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_ingot_from_verdite_b_lock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_ingot_from_verdite_b_lock.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "IronArmorEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/potion/IronArmorEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "ChainmailArmorEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmail_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/potion/ChainmailArmorEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "AddTooltipForPower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_tooltip_for_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/AddTooltipForPowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Procedures/QOL"
+    },
+    {
+      "name": "AddTooltipForArmorBonus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_tooltip_for_armor_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/AddTooltipForArmorBonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Procedures/QOL"
+    },
+    {
+      "name": "SteelToolsEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_tools_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/SteelToolsEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/ToolEffects"
+    },
+    {
+      "name": "SteelHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/SteelHammerItem.java",
+          "src/main/resources/assets/good_ores/models/item/steel_hammer.json",
+          "src/main/resources/assets/good_ores/items/steel_hammer.json"
+        ]
+      },
+      "path": "~/Items/Tools/Unique Tools"
+    },
+    {
+      "name": "SteelDigger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_digger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/steel_digger.json",
+          "src/main/java/net/mcreator/goodores/item/SteelDiggerItem.java",
+          "src/main/resources/assets/good_ores/models/item/steel_digger.json"
+        ]
+      },
+      "path": "~/Items/Tools/Unique Tools"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/blockstates/bronze_block.json",
+          "src/main/resources/assets/good_ores/models/item/bronze_block.json",
+          "src/main/java/net/mcreator/goodores/block/BronzeBlockBlock.java",
+          "src/main/resources/data/good_ores/loot_table/blocks/bronze_block.json",
+          "src/main/resources/assets/good_ores/items/bronze_block.json",
+          "src/main/resources/assets/good_ores/models/block/bronze_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/block/steel_block.json",
+          "src/main/java/net/mcreator/goodores/block/SteelBlockBlock.java",
+          "src/main/resources/assets/good_ores/blockstates/steel_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/steel_block.json",
+          "src/main/resources/assets/good_ores/models/item/steel_block.json",
+          "src/main/resources/assets/good_ores/items/steel_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "SteelGrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_grate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/block/steel_grate.json",
+          "src/main/resources/assets/good_ores/blockstates/steel_grate.json",
+          "src/main/java/net/mcreator/goodores/block/SteelGrateBlock.java",
+          "src/main/resources/assets/good_ores/models/item/steel_grate.json",
+          "src/main/resources/assets/good_ores/items/steel_grate.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/steel_grate.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "Blood",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/client/particle/BloodParticle.java",
+          "src/main/resources/assets/good_ores/particles/blood.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "BleedingActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_active_tick_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/BleedingActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Procedures/Conditions"
+    },
+    {
+      "name": "BleedingOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/BleedingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/potion/BleedingMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "SteelGiantsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_giantsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/SteelGiantswordItem.java",
+          "src/main/resources/assets/good_ores/items/steel_giantsword.json",
+          "src/main/resources/assets/good_ores/models/item/steel_giantsword.json"
+        ]
+      },
+      "path": "~/Items/Combat/Unique Combat"
+    },
+    {
+      "name": "SteelCauseBleeding",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_cause_bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/SteelCauseBleedingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "isvanillacritical",
+            "type": "logic"
+          }
+        ]
+      },
+      "path": "~/Procedures/Gameplay"
+    },
+    {
+      "name": "BigChain",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "big_chain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/block/big_chain.json",
+          "src/main/resources/assets/good_ores/blockstates/big_chain.json",
+          "src/main/resources/assets/good_ores/models/item/big_chain.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/big_chain.json",
+          "src/main/java/net/mcreator/goodores/block/BigChainBlock.java",
+          "src/main/resources/assets/good_ores/items/big_chain.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "SteelDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "steel_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/steel_door.json",
+          "src/main/resources/assets/good_ores/models/item/steel_door.json",
+          "src/main/resources/assets/good_ores/models/block/steel_door_top_right.json",
+          "src/main/resources/assets/good_ores/models/block/steel_door_bottom_right_open.json",
+          "src/main/resources/assets/good_ores/models/block/steel_door_top_right_open.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/steel_door.json",
+          "src/main/resources/assets/good_ores/blockstates/steel_door.json",
+          "src/main/resources/assets/good_ores/models/block/steel_door_bottom_left.json",
+          "src/main/resources/assets/good_ores/models/block/steel_door_top_left.json",
+          "src/main/java/net/mcreator/goodores/block/SteelDoorBlock.java",
+          "src/main/resources/assets/good_ores/models/block/steel_door_bottom_left_open.json",
+          "src/main/resources/assets/good_ores/models/block/steel_door_top_left_open.json",
+          "src/main/resources/assets/good_ores/models/block/steel_door_bottom_right.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "SteelTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/steel_trapdoor.json",
+          "src/main/resources/assets/good_ores/models/item/steel_trapdoor.json",
+          "src/main/resources/assets/good_ores/models/block/steel_trapdoor.json",
+          "src/main/java/net/mcreator/goodores/block/SteelTrapdoorBlock.java",
+          "src/main/resources/assets/good_ores/items/steel_trapdoor.json",
+          "src/main/resources/assets/good_ores/models/block/steel_trapdoor_top.json",
+          "src/main/resources/assets/good_ores/blockstates/steel_trapdoor.json",
+          "src/main/resources/assets/good_ores/models/block/steel_trapdoor_open.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "HeavyPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/block/HeavyPressurePlateBlock.java",
+          "src/main/resources/data/good_ores/loot_table/blocks/heavy_pressure_plate.json",
+          "src/main/resources/assets/good_ores/blockstates/heavy_pressure_plate.json",
+          "src/main/resources/assets/good_ores/items/heavy_pressure_plate.json",
+          "src/main/resources/assets/good_ores/models/block/heavy_pressure_plate.json",
+          "src/main/resources/assets/good_ores/models/item/heavy_pressure_plate.json",
+          "src/main/resources/assets/good_ores/models/block/heavy_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "SteelPillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/steel_pillar.json",
+          "src/main/resources/assets/good_ores/items/steel_pillar.json",
+          "src/main/java/net/mcreator/goodores/block/SteelPillarBlock.java",
+          "src/main/resources/data/good_ores/loot_table/blocks/steel_pillar.json",
+          "src/main/resources/assets/good_ores/blockstates/steel_pillar.json",
+          "src/main/resources/assets/good_ores/models/block/steel_pillar.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "PlatinumPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/platinum_pressure_plate.json",
+          "src/main/resources/assets/good_ores/blockstates/platinum_pressure_plate.json",
+          "src/main/resources/assets/good_ores/models/block/platinum_pressure_plate.json",
+          "src/main/java/net/mcreator/goodores/block/PlatinumPressurePlateBlock.java",
+          "src/main/resources/assets/good_ores/items/platinum_pressure_plate.json",
+          "src/main/resources/assets/good_ores/models/block/platinum_pressure_plate_down.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/platinum_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "VerditeAppleApplyEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_apple_apply_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/VerditeAppleApplyEffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Others"
+    },
+    {
+      "name": "VerditeApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/VerditeAppleItem.java",
+          "src/main/resources/assets/good_ores/items/verdite_apple.json",
+          "src/main/resources/assets/good_ores/models/item/verdite_apple.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "BronzeCrownEmeraldEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_emerald_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/BronzeCrownEmeraldEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/ArmorEffects"
+    },
+    {
+      "name": "BronzeCrownEmerald",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bronze_crown_emerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/bronze_crown_emerald_chestplate.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_emerald_helmet.json",
+          "src/main/resources/assets/good_ores/equipment/bronze_crown_emerald.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_emerald_boots.json",
+          "src/main/java/net/mcreator/goodores/item/BronzeCrownEmeraldItem.java",
+          "src/main/resources/assets/good_ores/items/bronze_crown_emerald_leggings.json",
+          "src/main/resources/assets/good_ores/models/item/bronze_crown_emerald_helmet.json"
+        ]
+      },
+      "path": "~/Items/Combat/Unique Combat"
+    },
+    {
+      "name": "BronzeCrownDiamond",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bronze_crown_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/BronzeCrownDiamondItem.java",
+          "src/main/resources/assets/good_ores/items/bronze_crown_diamond_chestplate.json",
+          "src/main/resources/assets/good_ores/equipment/bronze_crown_diamond.json",
+          "src/main/resources/assets/good_ores/models/item/bronze_crown_diamond_helmet.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_diamond_leggings.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_diamond_boots.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_diamond_helmet.json"
+        ]
+      },
+      "path": "~/Items/Combat/Unique Combat"
+    },
+    {
+      "name": "BronzeCrownDiamondEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_diamond_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/BronzeCrownDiamondEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/ArmorEffects"
+    },
+    {
+      "name": "BronzeCrownRedstone",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bronze_crown_redstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/bronze_crown_redstone_chestplate.json",
+          "src/main/java/net/mcreator/goodores/item/BronzeCrownRedstoneItem.java",
+          "src/main/resources/assets/good_ores/items/bronze_crown_redstone_leggings.json",
+          "src/main/resources/assets/good_ores/equipment/bronze_crown_redstone.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_redstone_helmet.json",
+          "src/main/resources/assets/good_ores/models/item/bronze_crown_redstone_helmet.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_redstone_boots.json"
+        ]
+      },
+      "path": "~/Items/Combat/Unique Combat"
+    },
+    {
+      "name": "BronzeCrownRedstoneEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_redstone_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/BronzeCrownRedstoneEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/ArmorEffects"
+    },
+    {
+      "name": "BronzeCrownLapiz",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bronze_crown_lapiz",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/equipment/bronze_crown_lapiz.json",
+          "src/main/resources/assets/good_ores/models/item/bronze_crown_lapiz_helmet.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_lapiz_boots.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_lapiz_leggings.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_lapiz_chestplate.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_lapiz_helmet.json",
+          "src/main/java/net/mcreator/goodores/item/BronzeCrownLapizItem.java"
+        ]
+      },
+      "path": "~/Items/Combat/Unique Combat"
+    },
+    {
+      "name": "BronzeCrownLapizEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_lapiz_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/BronzeCrownLapizEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/ArmorEffects"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/BronzeIngotItem.java",
+          "src/main/resources/assets/good_ores/models/item/bronze_ingot.json",
+          "src/main/resources/assets/good_ores/items/bronze_ingot.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/steel_ingot.json",
+          "src/main/java/net/mcreator/goodores/item/SteelIngotItem.java",
+          "src/main/resources/assets/good_ores/models/item/steel_ingot.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "BronzeCrown",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/bronze_crown_helmet.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_chestplate.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_leggings.json",
+          "src/main/java/net/mcreator/goodores/item/BronzeCrownItem.java",
+          "src/main/resources/assets/good_ores/equipment/bronze_crown.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_helmet.json",
+          "src/main/resources/assets/good_ores/items/bronze_crown_boots.json"
+        ]
+      },
+      "path": "~/Items/Combat/Unique Combat"
+    },
+    {
+      "name": "BronzeCrownRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_crown_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "BronzeCrownDiamondRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_diamond_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_crown_diamond_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "BronzeCrownEmeraldRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_emerald_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_crown_emerald_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "BronzeCrownRedstoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_redstone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_crown_redstone_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "BronzeCrownLapizRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_crown_lapiz_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_crown_lapiz_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "SteelGreatswordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_greatsword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_greatsword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "SteelHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "SteelDiggerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_digger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_digger_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "BronzeBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "SteelPillarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pillar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_pillar_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "SteelTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "SteelDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_door_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "SteelGrateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_grate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_grate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "SteelPressurePlate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_pressure_plate.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "PlatinumPressurePlateBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pressure_plate_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_pressure_plate_block.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "BigChainRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_chain_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/big_chain_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "SteelToolsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_tools_tooltip",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/SteelToolsTooltipProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures/Others/Mod Tooltips"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "SteelIngotFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_ingot_from_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "BronzeIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "BronzeIngotFromBronzeBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot_from_bronze_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/bronze_ingot_from_bronze_block.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "SteelFurnace",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "steel_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/steel_furnace.json",
+          "src/main/resources/assets/good_ores/items/steel_furnace.json",
+          "src/main/java/net/mcreator/goodores/block/entity/SteelFurnaceBlockEntity.java",
+          "src/main/java/net/mcreator/goodores/block/SteelFurnaceBlock.java",
+          "src/main/resources/assets/good_ores/models/block/steel_furnace.json",
+          "src/main/resources/assets/good_ores/blockstates/steel_furnace.json",
+          "src/main/resources/assets/good_ores/models/item/steel_furnace.json"
+        ]
+      },
+      "path": "~/Blocks/Functional Blocks"
+    },
+    {
+      "name": "SteelFurnaceOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_furnace_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/SteelFurnaceOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "SteelFurnaceOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_furnace_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/SteelFurnaceOnRandomClientDisplayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "TumbagaIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tumbaga_ingot.json",
+          "src/main/java/net/mcreator/goodores/item/TumbagaIngotItem.java",
+          "src/main/resources/assets/good_ores/items/tumbaga_ingot.json"
+        ]
+      },
+      "path": "~/Items/Ingredients"
+    },
+    {
+      "name": "TumbagaPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tumbaga_pickaxe.json",
+          "src/main/resources/assets/good_ores/items/tumbaga_pickaxe.json",
+          "src/main/java/net/mcreator/goodores/item/TumbagaPickaxeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TumbagaAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/TumbagaAxeItem.java",
+          "src/main/resources/assets/good_ores/items/tumbaga_axe.json",
+          "src/main/resources/assets/good_ores/models/item/tumbaga_axe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TumbagaSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tumbaga_sword.json",
+          "src/main/java/net/mcreator/goodores/item/TumbagaSwordItem.java",
+          "src/main/resources/assets/good_ores/items/tumbaga_sword.json"
+        ]
+      },
+      "path": "~/Items/Combat"
+    },
+    {
+      "name": "TumbagaShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/tumbaga_shovel.json",
+          "src/main/resources/assets/good_ores/items/tumbaga_shovel.json",
+          "src/main/java/net/mcreator/goodores/item/TumbagaShovelItem.java"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TumbagaHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/item/TumbagaHoeItem.java",
+          "src/main/resources/assets/good_ores/items/tumbaga_hoe.json",
+          "src/main/resources/assets/good_ores/models/item/tumbaga_hoe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "TumbagaPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tumbaga_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "TumbagaAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tumbaga_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "TumbagaSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tumbaga_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Combat"
+    },
+    {
+      "name": "TumbagaShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tumbaga_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "TumbagaHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tumbaga_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Tools"
+    },
+    {
+      "name": "TumbagaChiselItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_chisel_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/TumbagaChiselItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/OffHandEffects"
+    },
+    {
+      "name": "TumbagaChisel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_chisel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/items/tumbaga_chisel.json",
+          "src/main/java/net/mcreator/goodores/item/TumbagaChiselItem.java",
+          "src/main/resources/assets/good_ores/models/item/tumbaga_chisel.json"
+        ]
+      },
+      "path": "~/Items/Tools/Unique Tools"
+    },
+    {
+      "name": "TumbagaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/blockstates/tumbaga_block.json",
+          "src/main/resources/assets/good_ores/models/item/tumbaga_block.json",
+          "src/main/resources/assets/good_ores/models/block/tumbaga_block.json",
+          "src/main/resources/assets/good_ores/items/tumbaga_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/tumbaga_block.json",
+          "src/main/java/net/mcreator/goodores/block/TumbagaBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "ChiseledTungstenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/block/ChiseledTungstenBlockBlock.java",
+          "src/main/resources/assets/good_ores/items/chiseled_tungsten_block.json",
+          "src/main/resources/assets/good_ores/blockstates/chiseled_tungsten_block.json",
+          "src/main/resources/assets/good_ores/models/block/chiseled_tungsten_block.json",
+          "src/main/resources/assets/good_ores/models/item/chiseled_tungsten_block.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/chiseled_tungsten_block.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "SteelPillarFromStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pillar_from_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/steel_pillar_from_stonecutter.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "TumbagaBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tumbaga_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "TumbagaIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbaga_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tumbaga_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Ingredients"
+    },
+    {
+      "name": "ChiseledTungstenBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_tungsten_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/good_ores/models/item/chiseled_tungsten_brick.json",
+          "src/main/resources/assets/good_ores/models/block/chiseled_tungsten_brick.json",
+          "src/main/java/net/mcreator/goodores/block/ChiseledTungstenBrickBlock.java",
+          "src/main/resources/assets/good_ores/blockstates/chiseled_tungsten_brick.json",
+          "src/main/resources/assets/good_ores/items/chiseled_tungsten_brick.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/chiseled_tungsten_brick.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "VerditeBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/block/VerditeBrickBlock.java",
+          "src/main/resources/assets/good_ores/models/item/verdite_brick.json",
+          "src/main/resources/assets/good_ores/blockstates/verdite_brick.json",
+          "src/main/resources/assets/good_ores/models/block/verdite_brick.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/verdite_brick.json",
+          "src/main/resources/assets/good_ores/items/verdite_brick.json"
+        ]
+      },
+      "path": "~/Blocks/Decorative Blocks"
+    },
+    {
+      "name": "VerditeBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "HastePotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_potion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "VerditeAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verdite_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/verdite_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Food"
+    },
+    {
+      "name": "HastePotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/recipe/brewing/HastePotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes/Food"
+    },
+    {
+      "name": "LavaSponge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lava_sponge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/block/LavaSpongeBlock.java",
+          "src/main/resources/assets/good_ores/items/lava_sponge.json",
+          "src/main/resources/assets/good_ores/blockstates/lava_sponge.json",
+          "src/main/resources/assets/good_ores/models/block/lava_sponge.json",
+          "src/main/resources/data/good_ores/loot_table/blocks/lava_sponge.json",
+          "src/main/resources/assets/good_ores/models/item/lava_sponge.json"
+        ]
+      },
+      "path": "~/Blocks/Functional Blocks"
+    },
+    {
+      "name": "WetLavaSponge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_lava_sponge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/wet_lava_sponge.json",
+          "src/main/resources/assets/good_ores/models/item/wet_lava_sponge.json",
+          "src/main/resources/assets/good_ores/items/wet_lava_sponge.json",
+          "src/main/resources/assets/good_ores/blockstates/wet_lava_sponge.json",
+          "src/main/resources/assets/good_ores/models/block/wet_lava_sponge.json",
+          "src/main/java/net/mcreator/goodores/block/WetLavaSpongeBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Functional Blocks"
+    },
+    {
+      "name": "WetLavaSpongeBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_lava_sponge_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodores/procedures/WetLavaSpongeBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocks"
+    },
+    {
+      "name": "RawCopperBlockToCopperBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_copper_block_to_copper_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/raw_copper_block_to_copper_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "CopperBlockFromBlastingRawCopperBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_from_blasting_raw_copper_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/copper_block_from_blasting_raw_copper_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "TinBlockFromBlastingTinCopperBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_from_blasting_tin_copper_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_block_from_blasting_tin_copper_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "TinBlockFromSmeltingTinCopperBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_from_smelting_tin_copper_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/tin_block_from_smelting_tin_copper_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "IronBlockFromBlastingIronBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_from_blasting_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/iron_block_from_blasting_iron_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "IronBlockFromSmeltingIronBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_from_smelting_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/iron_block_from_smelting_iron_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "PlatinumBlockFromBlastingPlatinumBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block_from_blasting_platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_block_from_blasting_platinum_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "PlatinumBlockFromSmeltingPlatinumBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_block_from_smelting_platinum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/platinum_block_from_smelting_platinum_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "TinOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/tin_ore.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "DeepTinOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_tin_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/deepslate_tin_ore.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "PlatinumOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/platinum_ore.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "DeepPlatinumOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_platinum_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/loot_table/blocks/deepslate_platinum_ore.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "GoldBlockFromBlastingGoldBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_from_blasting_gold_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/gold_block_from_blasting_gold_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    },
+    {
+      "name": "GoldBlockFromSmeltingdBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_from_smeltingd_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/good_ores/recipe/gold_block_from_smeltingd_block.json"
+        ]
+      },
+      "path": "~/Recipes/QOL"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "dontHarvestBlock",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "PlantEquipmentTicker",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:good_ores:livingstone_armor_repair_items": [
+      "~CUSTOM:LivingstoneShard"
+    ],
+    "ITEMS:minecraft:modded_tools": [
+      "CUSTOM:LivingstoneAxe",
+      "CUSTOM:LivingstoneHoe",
+      "CUSTOM:LivingstonePickaxe",
+      "CUSTOM:LivingstoneShovel",
+      "CUSTOM:LivingstoneSword",
+      "CUSTOM:PlatinumAxe",
+      "CUSTOM:PlatinumHoe",
+      "CUSTOM:PlatinumPickaxe",
+      "CUSTOM:PlatinumShovel",
+      "CUSTOM:PlatinumSword",
+      "CUSTOM:TinAxe",
+      "CUSTOM:TinHoe",
+      "CUSTOM:TinPickaxe",
+      "CUSTOM:TinShovel",
+      "CUSTOM:TinSword",
+      "CUSTOM:VerditeAxe",
+      "CUSTOM:VerditeHoe",
+      "CUSTOM:VerditePickaxe",
+      "CUSTOM:VerditeShovel",
+      "CUSTOM:VerditeSword"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:VerditeArmor.body",
+      "~CUSTOM:LivingstoneArmor.body",
+      "~CUSTOM:PlatinumArmor.body"
+    ],
+    "ITEMS:good_ores:livingstone_hoe_repair_items": [
+      "~CUSTOM:LivingstoneShard"
+    ],
+    "ITEMS:good_ores:platinum_shovel_repair_items": [
+      "~CUSTOM:PlatinumIngot"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:VerditeBrick",
+      "~CUSTOM:VerditeBlock",
+      "~CUSTOM:VerditeRoots",
+      "~CUSTOM:LivingstoneBlock"
+    ],
+    "BLOCKS:minecraft:piglin_repellents": [
+      "CUSTOM:VerditeBlock",
+      "CUSTOM:VerditePlant",
+      "CUSTOM:VerditeRoots"
+    ],
+    "ITEMS:good_ores:livingstone_axe_repair_items": [
+      "~CUSTOM:LivingstoneShard"
+    ],
+    "ITEMS:good_ores:livingstone_pickaxe_repair_items": [
+      "~CUSTOM:LivingstoneShard"
+    ],
+    "ITEMS:minecraft:full_iron": [
+      "Items.IRON_HELMET",
+      "Items.IRON_CHESTPLATE",
+      "Items.IRON_LEGGINGS",
+      "Items.IRON_BOOTS"
+    ],
+    "ITEMS:good_ores:verdite_hoe_repair_items": [
+      "~CUSTOM:VerditeIngot"
+    ],
+    "ITEMS:good_ores:platinum_hoe_repair_items": [
+      "~CUSTOM:PlatinumIngot"
+    ],
+    "ITEMS:good_ores:verdite_axe_repair_items": [
+      "~CUSTOM:VerditeIngot"
+    ],
+    "ITEMS:minecraft:netherite_tools": [
+      "Items.NETHERITE_SWORD",
+      "Items.NETHERITE_SHOVEL",
+      "Items.NETHERITE_PICKAXE",
+      "Items.NETHERITE_AXE",
+      "Items.NETHERITE_HOE"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:VerditeBrick",
+      "~CUSTOM:TumbagaBlock",
+      "~CUSTOM:BronzeBlock",
+      "~CUSTOM:VerditeBlock",
+      "~CUSTOM:TinBlock",
+      "~CUSTOM:RawTinBlock",
+      "~CUSTOM:DeepslateTinOre",
+      "~CUSTOM:TinOre"
+    ],
+    "ITEMS:good_ores:livingstone_shovel_repair_items": [
+      "~CUSTOM:LivingstoneShard"
+    ],
+    "ITEMS:good_ores:tumbaga_shovel_repair_items": [
+      "~CUSTOM:TumbagaIngot"
+    ],
+    "ITEMS:minecraft:gold_tools": [
+      "Items.GOLDEN_SWORD",
+      "Items.GOLDEN_SHOVEL",
+      "Items.GOLDEN_PICKAXE",
+      "Items.GOLDEN_AXE",
+      "Items.GOLDEN_HOE"
+    ],
+    "ITEMS:good_ores:tin_hoe_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TumbagaAxe",
+      "~CUSTOM:VerditeAxe",
+      "~CUSTOM:LivingstoneAxe",
+      "~CUSTOM:TinAxe",
+      "~CUSTOM:PlatinumAxe"
+    ],
+    "ITEMS:good_ores:verdite_pickaxe_repair_items": [
+      "~CUSTOM:VerditeIngot"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:BronzeCrown.helmet",
+      "~CUSTOM:VerditeArmor.helmet",
+      "~CUSTOM:LivingstoneArmor.helmet",
+      "~CUSTOM:PlatinumArmor.helmet",
+      "CUSTOM:BronzeCrownDiamond.helmet",
+      "CUSTOM:BronzeCrownEmerald.helmet",
+      "CUSTOM:BronzeCrownLapiz.helmet",
+      "CUSTOM:BronzeCrownRedstone.helmet"
+    ],
+    "ITEMS:good_ores:platinum_armor_repair_items": [
+      "~CUSTOM:PlatinumIngot"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:PlatinumPressurePlate",
+      "~CUSTOM:SteelPillar",
+      "~CUSTOM:HeavyPressurePlate",
+      "~CUSTOM:SteelTrapdoor",
+      "~CUSTOM:SteelGrate",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:PlatinumBars",
+      "~CUSTOM:PlatinumBlock",
+      "~CUSTOM:RawPlatinumBlock",
+      "~CUSTOM:DeepslatePlatinumOre",
+      "~CUSTOM:PlatinumOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:WetLavaSponge",
+      "~CUSTOM:ChiseledTungstenBrick",
+      "~CUSTOM:ChiseledTungstenBlock",
+      "~CUSTOM:ReinforcedNetheriteBlock",
+      "~CUSTOM:TungstenBrisk",
+      "~CUSTOM:TungstenBlock",
+      "~CUSTOM:RawTungstenBlock",
+      "~CUSTOM:TungstenOre"
+    ],
+    "BIOMES:minecraft:extreme_cold": [
+      "mutated_ice_flats",
+      "deep_frozen_ocean",
+      "frozen_ocean",
+      "frozen_peaks",
+      "frozen_river",
+      "#minecraft:is_end"
+    ],
+    "ITEMS:good_ores:verdite_armor_repair_items": [
+      "~CUSTOM:VerditeIngot"
+    ],
+    "ITEMS:good_ores:tumbaga_hoe_repair_items": [
+      "~CUSTOM:TumbagaIngot"
+    ],
+    "ITEMS:minecraft:stone_tools": [
+      "Items.STONE_SWORD",
+      "Items.STONE_SHOVEL",
+      "Items.STONE_PICKAXE",
+      "Items.STONE_AXE",
+      "Items.STONE_HOE"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:WetLavaSponge",
+      "~CUSTOM:ChiseledTungstenBrick",
+      "~CUSTOM:ChiseledTungstenBlock",
+      "~CUSTOM:TumbagaBlock",
+      "~CUSTOM:PlatinumPressurePlate",
+      "~CUSTOM:SteelPillar",
+      "~CUSTOM:HeavyPressurePlate",
+      "~CUSTOM:SteelTrapdoor",
+      "~CUSTOM:SteelGrate",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:BronzeBlock",
+      "~CUSTOM:ReinforcedNetheriteBlock",
+      "~CUSTOM:TinBlock",
+      "~CUSTOM:PlatinumBars",
+      "~CUSTOM:PlatinumBlock",
+      "~CUSTOM:TungstenBrisk",
+      "~CUSTOM:TungstenBlock",
+      "~CUSTOM:RawTungstenBlock",
+      "~CUSTOM:RawPlatinumBlock",
+      "~CUSTOM:RawTinBlock",
+      "~CUSTOM:TungstenOre",
+      "~CUSTOM:DeepslatePlatinumOre",
+      "~CUSTOM:PlatinumOre",
+      "~CUSTOM:DeepslateTinOre",
+      "~CUSTOM:TinOre"
+    ],
+    "ITEMS:minecraft:full_gold": [
+      "Items.GOLDEN_HELMET",
+      "Items.GOLDEN_CHESTPLATE",
+      "Items.GOLDEN_LEGGINGS",
+      "Items.GOLDEN_BOOTS"
+    ],
+    "ITEMS:good_ores:tumbaga_pickaxe_repair_items": [
+      "~CUSTOM:TumbagaIngot"
+    ],
+    "BLOCKS:minecraft:iron_blocks": [
+      "Blocks.IRON_ORE",
+      "Blocks.DEEPSLATE_IRON_ORE",
+      "Blocks.RAW_IRON_BLOCK",
+      "Blocks.IRON_BLOCK",
+      "Blocks.IRON_DOOR",
+      "Blocks.IRON_TRAPDOOR",
+      "Blocks.IRON_BARS"
+    ],
+    "ITEMS:good_ores:tin_axe_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:VerditeArmor.boots",
+      "~CUSTOM:LivingstoneArmor.boots",
+      "~CUSTOM:PlatinumArmor.boots"
+    ],
+    "ITEMS:good_ores:platinum_axe_repair_items": [
+      "~CUSTOM:PlatinumIngot"
+    ],
+    "ITEMS:good_ores:platinum_pickaxe_repair_items": [
+      "~CUSTOM:PlatinumIngot"
+    ],
+    "ITEMS:good_ores:tin_sword_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:good_ores:platinum_sword_repair_items": [
+      "~CUSTOM:PlatinumIngot"
+    ],
+    "ITEMS:good_ores:tin_pickaxe_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TumbagaHoe",
+      "~CUSTOM:VerditeHoe",
+      "~CUSTOM:LivingstoneHoe",
+      "~CUSTOM:TinHoe",
+      "~CUSTOM:PlatinumHoe"
+    ],
+    "ITEMS:good_ores:verdite_shovel_repair_items": [
+      "~CUSTOM:VerditeIngot"
+    ],
+    "ITEMS:good_ores:bronze_crown_repair_items": [
+      "~CUSTOM:BronzeIngot"
+    ],
+    "ITEMS:good_ores:tumbaga_sword_repair_items": [
+      "~CUSTOM:TumbagaIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TumbagaSword",
+      "~CUSTOM:SteelGiantsword",
+      "~CUSTOM:VerditeSword",
+      "~CUSTOM:LivingstoneSword",
+      "~CUSTOM:TinSword",
+      "~CUSTOM:PlatinumSword"
+    ],
+    "ITEMS:minecraft:full_chainmail": [
+      "Items.CHAINMAIL_HELMET",
+      "Items.CHAINMAIL_CHESTPLATE",
+      "Items.CHAINMAIL_LEGGINGS",
+      "Items.CHAINMAIL_BOOTS"
+    ],
+    "ITEMS:minecraft:steel_tools": [
+      "CUSTOM:SteelDigger",
+      "CUSTOM:SteelGiantsword",
+      "CUSTOM:SteelHammer"
+    ],
+    "ITEMS:good_ores:tin_shovel_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:wood_tools": [
+      "Items.WOODEN_SWORD",
+      "Items.WOODEN_SHOVEL",
+      "Items.WOODEN_PICKAXE",
+      "Items.WOODEN_AXE",
+      "Items.WOODEN_HOE"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TumbagaPickaxe",
+      "~CUSTOM:SteelHammer",
+      "~CUSTOM:VerditePickaxe",
+      "~CUSTOM:LivingstonePickaxe",
+      "~CUSTOM:TinPickaxe",
+      "~CUSTOM:PlatinumPickaxe"
+    ],
+    "ITEMS:good_ores:plant_ore_hoes": [
+      "CUSTOM:LivingstoneHoe"
+    ],
+    "ITEMS:good_ores:tumbaga_axe_repair_items": [
+      "~CUSTOM:TumbagaIngot"
+    ],
+    "BLOCKS:minecraft:ores": [
+      "Blocks.COAL_ORE",
+      "Blocks.IRON_ORE",
+      "Blocks.REDSTONE_ORE",
+      "Blocks.LIT_REDSTONE_ORE",
+      "Blocks.GOLD_ORE",
+      "Blocks.LAPIS_ORE",
+      "Blocks.DIAMOND_ORE",
+      "Blocks.EMERALD_ORE",
+      "Blocks.COPPER_ORE",
+      "Blocks.DEEPSLATE_COAL_ORE",
+      "Blocks.DEEPSLATE_IRON_ORE",
+      "Blocks.DEEPSLATE_REDSTONE_ORE",
+      "Blocks.DEEPSLATE_GOLD_ORE",
+      "Blocks.DEEPSLATE_LAPIS_ORE",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DEEPSLATE_EMERALD_ORE",
+      "Blocks.DEEPSLATE_COPPER_ORE",
+      "Blocks.QUARTZ_ORE",
+      "Blocks.NETHER_GOLD_ORE",
+      "CUSTOM:DeepslatePlatinumOre",
+      "CUSTOM:DeepslateTinOre",
+      "CUSTOM:PlatinumOre",
+      "CUSTOM:TinOre"
+    ],
+    "ITEMS:minecraft:diamond_tools": [
+      "Items.DIAMOND_SWORD",
+      "Items.DIAMOND_SHOVEL",
+      "Items.DIAMOND_PICKAXE",
+      "Items.DIAMOND_AXE",
+      "Items.DIAMOND_HOE"
+    ],
+    "ITEMS:good_ores:livingstone_sword_repair_items": [
+      "~CUSTOM:LivingstoneShard"
+    ],
+    "ITEMS:good_ores:verdite_sword_repair_items": [
+      "~CUSTOM:VerditeIngot"
+    ],
+    "BLOCKS:minecraft:diamond_blocks": [
+      "Blocks.DIAMOND_ORE",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DIAMOND_BLOCK"
+    ],
+    "ITEMS:minecraft:iron_tools": [
+      "Items.IRON_SWORD",
+      "Items.IRON_SHOVEL",
+      "Items.IRON_PICKAXE",
+      "Items.IRON_AXE",
+      "Items.IRON_HOE"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TumbagaShovel",
+      "~CUSTOM:SteelDigger",
+      "~CUSTOM:VerditeShovel",
+      "~CUSTOM:LivingstoneShovel",
+      "~CUSTOM:TinShovel",
+      "~CUSTOM:PlatinumShovel"
+    ],
+    "BLOCKS:minecraft:beacon_base_blocks": [
+      "CUSTOM:BronzeBlock",
+      "CUSTOM:PlatinumBlock",
+      "CUSTOM:ReinforcedNetheriteBlock",
+      "CUSTOM:TinBlock",
+      "CUSTOM:TungstenBlock",
+      "CUSTOM:VerditeBlock",
+      "CUSTOM:SteelBlock"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:VerditeArmor.legs",
+      "~CUSTOM:LivingstoneArmor.legs",
+      "~CUSTOM:PlatinumArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.haste_potion": "Lingering Potion of Haste",
+      "item.good_ores.verdite_plant": "Verdite Plant",
+      "item.good_ores.livingstone_shard": "Livingstone Shard",
+      "tooltip.goodores.diamondharvest": "§2§lDiamond",
+      "tooltip.goodores.netheritepower": "§2Crit damage causes wither",
+      "item.good_ores.wet_lava_sponge": "Burned Lava Sponge",
+      "item.good_ores.tin_sword": "Tin Sword",
+      "tooltip.goodores.bonusgold_two": "§2+15 Mining efficiency",
+      "item.good_ores.reinforced_netherite_armor_boots": "Reinforced Netherite Boots",
+      "item.good_ores.platinum_ingot": "Platinum Ingot",
+      "tooltip.goodores.allharvest": "§2§lAll ores",
+      "item.good_ores.steel_furnace": "Steel Furnace",
+      "item.good_ores.platinum_armor_leggings": "Platinum Leggings",
+      "advancements.tin_pickaxe_advancement.title": "Getting an Upgrade... Again",
+      "tooltip.goodores.ironharvest": "§2§lIron",
+      "effect.good_ores.gold_pickaxe_effect": "Gold Pickaxe Effect",
+      "item.good_ores.livingstone_armor_boots": "Livingstone Boots",
+      "item.good_ores.verdite_axe": "Verdite Axe",
+      "item.good_ores.reinforced_netherite_armor_helmet": "Reinforced Netherite Helmet",
+      "item.good_ores.livingstone_sword": "Livingstone Sword",
+      "item.good_ores.verdite_shovel": "Verdite Shovel",
+      "item.good_ores.raw_platinum": "Raw Platinum",
+      "item.good_ores.tin_hoe": "Tin Hoe",
+      "item.good_ores.big_chain": "Big Chain",
+      "item.good_ores.platinum_sword": "Platinum Sword",
+      "advancements.livingstone_seed_advancement.title": "A miracle!",
+      "item.good_ores.platinum_pickaxe": "Platinum Pickaxe",
+      "item.good_ores.tungsten_brisk": "Tungsten Brick",
+      "item.good_ores.bronze_crown_diamond_helmet": "Bronze Crown (Diamond)",
+      "item.good_ores.verdite_nugget": "Verdite Nugget",
+      "item.good_ores.tumbaga_sword": "Tumbaga Sword",
+      "item.good_ores.platinum_bars": "Platinum Bars",
+      "item.good_ores.tumbaga_shovel": "Tumbaga Shovel",
+      "item.good_ores.platinum_hoe": "Platinum Hoe",
+      "tooltip.goodores.breakmore": "§2Breaks a 3x3 area",
+      "item.good_ores.tungsten_ingot": "Tungsten Ingot",
+      "item.good_ores.verdite_ingot": "Verdite Ingot",
+      "item.good_ores.raw_tin_block": "Raw Tin Block",
+      "tooltip.goodores.bonusgold_three": "§2+1.55 Block reach",
+      "item.good_ores.platinum_armor_chestplate": "Platinum Chestplate",
+      "item.good_ores.steel_door": "Steel Door",
+      "tooltip.goodores.bonusiron_two": "§2+25% Sweeping damage",
+      "item.good_ores.verdite_armor_leggings": "Verdite Leggings",
+      "tooltip.goodores.bonuschainmail": "§2+5 Armor toughness",
+      "tooltip.goodores.netheriteharvest": "§2§lNetherite",
+      "item.minecraft.potion.effect.haste_potion": "Potion of Haste",
+      "advancements.platinum_ore_advancement.title": "A Brighter Future",
+      "item.good_ores.verdite_armor_boots": "Verdite Boots",
+      "advancements.livingstone_seed_advancement.descr": "Plant a seed of livingstone",
+      "tooltip.goodores.tinharvest": "§2§lTin",
+      "item.good_ores.bronze_crown_helmet": "Bronze Crown",
+      "item.good_ores.chiseled_tungsten_brick": "Chiseled Tungsten Brick",
+      "item.good_ores.reinforced_netherite_block": "Reinforced Block of Netherite",
+      "item.good_ores.tin_pickaxe": "Tin Pickaxe",
+      "effect.good_ores.chainmail_armor_effect": "Chainmail Armor Effect",
+      "tooltip.goodores.increasedamagetoarmored": "§2§lDamage increases per armor points",
+      "item.good_ores.steel_giantsword": "Steel Giantsword",
+      "item.good_ores.platinum_pressure_plate": "Platinum Pressure Plate",
+      "item.good_ores.platinum_ore": "Platinum Ore",
+      "item.good_ores.verdite_roots": "Verdite Roots",
+      "item.good_ores.tungsten_nugget": "Tungsten Nugget",
+      "advancements.have_all_ores_advancement.descr": "Acquire all the ores",
+      "tooltip.goodores.bonusiron_one": "§2+10% Knockback resistance",
+      "item.good_ores.platinum_axe": "Platinum Axe",
+      "item.good_ores.bronze_crown_emerald_helmet": "Bronze Crown (Emerald)",
+      "item.good_ores.steel_ingot": "Steel Alloy",
+      "item.good_ores.tin_nugget": "Tin Nugget",
+      "item.good_ores.tungsten_plaque": "Tungsten Plaque",
+      "container.good_ores.furnace": "Steel Furnace",
+      "item.good_ores.verdite_armor_helmet": "Verdite Helmet",
+      "item.good_ores.verdite_hoe": "Verdite Hoe",
+      "tooltip.goodores.stoneharvest": "§2§lStone",
+      "item.good_ores.platinum_armor_boots": "Platinum Boots",
+      "item.good_ores.platinum_armor_helmet": "Platinum Helmet",
+      "item.good_ores.livingstone_armor_helmet": "Livingstone Helmet",
+      "item.good_ores.steel_block": "Block of Steel",
+      "item.minecraft.splash_potion.effect.haste_potion": "Splash Potion of Haste",
+      "item.good_ores.verdite_armor_chestplate": "Verdite Chestplate",
+      "item.good_ores.tin_ingot": "Tin Ingot",
+      "tooltip.goodores.dropsbonemeal": "§240% chance for blocks to drop bonemeal",
+      "item.good_ores.verdite_block": "Block of Verdite",
+      "item.good_ores.bronze_block": "Block of Bronze",
+      "item.good_ores.steel_hammer": "Steel Hammer",
+      "item.good_ores.bronze_crown_redstone_helmet": "Bronze Crown (Redstone)",
+      "actionbar.goodores.cantharvestore": "You can\u0027t harvest this ore yet!",
+      "item.good_ores.raw_tungsten_block": "Raw Tungsten Block",
+      "item.good_ores.tin_block": "Block of Tin",
+      "effect.good_ores.iron_armor_effect": "Iron Armor Effect",
+      "item.good_ores.steel_trapdoor": "Steel Trapdoor",
+      "item.good_ores.tumbaga_axe": "Tumbaga Axe",
+      "item.good_ores.livingstone_hoe": "Livingstone Hoe",
+      "item.good_ores.platinum_nugget": "Platinum Nugget",
+      "item.good_ores.tungsten_block": "Block of Tungsten",
+      "tooltip.goodores.passiveregen": "§2Passive mending",
+      "tooltip.goodores.increasesblockdrops": "§210% chance to increase block drops",
+      "item.good_ores.steel_digger": "Steel Digger",
+      "item.good_ores.tumbaga_block": "Tumbaga Block",
+      "item.good_ores.verdite_sword": "Verdite Sword",
+      "item.good_ores.raw_tin": "Raw Tin",
+      "item.good_ores.bronze_ingot": "Bronze Alloy",
+      "item.good_ores.reinforced_netherite_armor_chestplate": "Reinforced Netherite Chestplate",
+      "effect.good_ores.bleeding": "Bleeding",
+      "item.good_ores.platinum_block": "Platinum Block",
+      "item.good_ores.livingstone_block": "Block of Livingstone",
+      "item.good_ores.verdite_pickaxe": "Verdite Pickaxe",
+      "item.good_ores.verdite_brick": "Verdite brick",
+      "item.good_ores.deepslate_tin_ore": "Tin Ore",
+      "item.good_ores.bronze_crown_lapiz_helmet": "Bronze Crown (Lapis Lazuli)",
+      "item.good_ores.livingstone_armor_chestplate": "Livingstone Chestplate",
+      "item.good_ores.platinum_shovel": "Platinum Shovel",
+      "tooltip.goodores.platinumharvest": "§2§lPlatinum",
+      "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
+      "item.good_ores.tumbaga_hoe": "Tumbaga Hoe",
+      "item.good_ores.tungsten_ore": "Tungsten Ore",
+      "item.good_ores.tin_ore": "Tin Ore",
+      "item.good_ores.livingstone_axe": "Livingstone Axe",
+      "item.good_ores.verdite_apple": "Verdite Apple",
+      "item.good_ores.livingstone_plant": "Livingstone Plant",
+      "advancements.platinum_ore_advancement.descr": "Smelt an platinum ingot",
+      "item.good_ores.steel_grate": "Steel Grate",
+      "item.good_ores.raw_platinum_block": "Raw Platinum Block",
+      "tooltip.goodores.causeswithereffect": "§2Crit damage causes poison",
+      "item.good_ores.tin_shovel": "Tin Shovel",
+      "item.good_ores.livingstone_shovel": "Livingstone Shovel",
+      "item.good_ores.deepslate_platinum_ore": "Platinum Ore",
+      "advancements.have_all_ores_advancement.title": "Have All Ores Advancement",
+      "item.good_ores.heavy_pressure_plate": "Steel Pressure Plate",
+      "advancements.tin_pickaxe_advancement.descr": "Make the first metallic pickaxe",
+      "item.good_ores.chiseled_tungsten_block": "Block of Tungsten",
+      "item.good_ores.tumbaga_pickaxe": "Tumbaga Pickaxe",
+      "item.good_ores.raw_tungsten": "Raw Tungsten",
+      "item.good_ores.reinforced_netherite_armor_leggings": "Reinforced Netherite Leggings",
+      "tooltip.goodores.bonusgold_one": "§2+25% Movement speed",
+      "tooltip.goodores.setbonus": "Set Bonus:",
+      "item.good_ores.livingstone_armor_leggings": "Livingstone Leggings",
+      "tooltip.goodores.bonusgold_four": "§2+15% Sneaking speed",
+      "item.good_ores.tumbaga_chisel": "Tumbaga Chisel",
+      "tooltip.goodores.diamondpower": "§2Crit damage causes more damage to undead monsters",
+      "tooltip.goodores.harvesttier": "Tool harvest level: ",
+      "item.good_ores.tin_axe": "Tin Axe",
+      "item.good_ores.steel_pillar": "Steel Pillar",
+      "item.good_ores.lava_sponge": "Lava Sponge",
+      "item.good_ores.livingstone_pickaxe": "Livingstone Pickaxe",
+      "item.good_ores.tumbaga_ingot": "Tumbaga Alloy"
+    },
+    "es_ar": {
+      "item.minecraft.lingering_potion.effect.haste_potion": "Lingering Potion of Haste",
+      "item.good_ores.verdite_plant": "Semilla de verdita",
+      "tooltip.goodores.diamondharvest": "§2§lDiamante",
+      "item.good_ores.livingstone_shard": "Fragmento de piedraviva",
+      "tooltip.goodores.netheritepower": "§2Daño critico causa Descomposicion",
+      "item.good_ores.wet_lava_sponge": "Lava Sponge",
+      "item.good_ores.tin_sword": "Espada de estaño",
+      "tooltip.goodores.bonusgold_two": "§2+15 Eficiencia de mineria",
+      "item.good_ores.platinum_ingot": "Lingote de platino",
+      "item.good_ores.reinforced_netherite_armor_boots": "Botas de netherite reforzadas",
+      "tooltip.goodores.allharvest": "§2§lTodos los minerales",
+      "item.good_ores.steel_furnace": "Horno de acero",
+      "item.good_ores.platinum_armor_leggings": "Pantalones de platino",
+      "advancements.tin_pickaxe_advancement.title": "Consiguiendo una mejora... denuevo",
+      "tooltip.goodores.ironharvest": "§2§lHierro",
+      "effect.good_ores.gold_pickaxe_effect": "Efecto sin nombre",
+      "item.good_ores.livingstone_armor_boots": "Botas de piedravia",
+      "item.good_ores.verdite_axe": "Hacha de verdita",
+      "item.good_ores.reinforced_netherite_armor_helmet": "Casco de netherite reforzado",
+      "item.good_ores.livingstone_sword": "Espada de piedravia",
+      "item.good_ores.raw_platinum": "Platino crudo",
+      "item.good_ores.verdite_shovel": "Pala de verdita",
+      "item.good_ores.tin_hoe": "Azada de estaño",
+      "item.good_ores.big_chain": "Cadena grande",
+      "tooltip.goodores.poisononhit": "§2Daño critico causa Veneno",
+      "item.good_ores.platinum_sword": "Espada de platino",
+      "advancements.livingstone_seed_advancement.title": "Un milagro!",
+      "item.good_ores.platinum_pickaxe": "Pico de platino",
+      "item.good_ores.tungsten_brisk": "Ladrillos de tungsteno",
+      "item.good_ores.bronze_crown_diamond_helmet": "Corona de bronce (Diamante)",
+      "item.good_ores.verdite_nugget": "Pepita de verdita",
+      "item.good_ores.tumbaga_sword": "Espada de tumbaga",
+      "item.good_ores.platinum_bars": "Barras de platino",
+      "item.good_ores.tumbaga_shovel": "Pala de tumbaga",
+      "item.good_ores.platinum_hoe": "Azada de platino",
+      "tooltip.goodores.breakmore": "§2Rompe bloques en un area 3x3",
+      "item.good_ores.tungsten_ingot": "Lingote de tungsteno",
+      "item.good_ores.verdite_ingot": "Lingote de verdita",
+      "item.good_ores.raw_tin_block": "Bloque de estaño crudo",
+      "item.good_ores.steel_door": "Puerta de acero",
+      "tooltip.goodores.bonusgold_three": "§2+1.55 Alcance de bloque",
+      "item.good_ores.platinum_armor_chestplate": "Pechera de platino",
+      "item.good_ores.verdite_armor_leggings": "Pantalones de verdita",
+      "tooltip.goodores.bonusiron_two": "§2+25% Daño de barrido",
+      "tooltip.goodores.bonuschainmail": "§2+5 Dureza de armadura",
+      "tooltip.goodores.netheriteharvest": "§2§lNetherite",
+      "item.minecraft.potion.effect.haste_potion": "Potion of Haste",
+      "advancements.platinum_ore_advancement.title": "Un mejor futuro",
+      "item.good_ores.verdite_armor_boots": "Botas de verdita",
+      "advancements.livingstone_seed_advancement.descr": "Planta una semilla de piedraviva",
+      "tooltip.goodores.tinharvest": "§2§lEstaño",
+      "item.good_ores.bronze_crown_helmet": "Corona de bronce",
+      "item.good_ores.chiseled_tungsten_brick": "Chiseled Tungsten Brick",
+      "item.good_ores.reinforced_netherite_block": "Bloque de netherite reforzado",
+      "item.good_ores.tin_pickaxe": "Pico de estaño",
+      "effect.good_ores.chainmail_armor_effect": "Chainmail Armor Effect",
+      "tooltip.goodores.increasedamagetoarmored": "§2Daño aumenta por cada punto de armadura",
+      "item.good_ores.steel_giantsword": "Gran espada de acero",
+      "item.good_ores.platinum_pressure_plate": "Placa de presion de platino",
+      "item.good_ores.platinum_ore": "Mineral de platino",
+      "item.good_ores.verdite_roots": "Raices de verdita",
+      "item.good_ores.tungsten_nugget": "Pepita de tungsteno",
+      "advancements.have_all_ores_advancement.descr": "Acquire all the ores",
+      "tooltip.goodores.bonusiron_one": "§2+10% Resistencia de empuje",
+      "item.good_ores.platinum_axe": "Hacha de platino",
+      "item.good_ores.bronze_crown_emerald_helmet": "Corona de bronce (Esmeralda)",
+      "item.good_ores.steel_ingot": "Aleacion de acero",
+      "item.good_ores.tin_nugget": "Pepita de estaño",
+      "item.good_ores.tungsten_plaque": "Placa de tungsteno",
+      "container.good_ores.furnace": "Horno de acero",
+      "item.good_ores.verdite_armor_helmet": "Casco de verdita",
+      "tooltip.goodores.stoneharvest": "§2§lPiedra",
+      "item.good_ores.verdite_hoe": "Azada de verdita",
+      "item.good_ores.platinum_armor_boots": "Botas de platino",
+      "item.good_ores.platinum_armor_helmet": "Casco de platino",
+      "item.good_ores.livingstone_armor_helmet": "Casco de piedravia",
+      "item.good_ores.steel_block": "Bloque de acero",
+      "item.minecraft.splash_potion.effect.haste_potion": "Splash Potion of Haste",
+      "item.good_ores.verdite_armor_chestplate": "Pechera de verdita",
+      "item.good_ores.tin_ingot": "Lingote de estaño",
+      "tooltip.goodores.dropsbonemeal": "§215% de probabilidad de que los bloques suelten polvo de hueso",
+      "item.good_ores.verdite_block": "Bloque de verdita",
+      "item.good_ores.bronze_block": "Bloque de bronce",
+      "item.good_ores.steel_hammer": "Martillo de acero",
+      "item.good_ores.bronze_crown_redstone_helmet": "Corona de bronce (Redstone)",
+      "actionbar.goodores.cantharvestore": "¡Aun no podes obtener este mineral!",
+      "item.good_ores.raw_tungsten_block": "Bloque de tungsteno crudo",
+      "item.good_ores.tin_block": "Bloque de estaño",
+      "effect.good_ores.iron_armor_effect": "Iron Armor Effect",
+      "item.good_ores.steel_trapdoor": "Trampilla de acero",
+      "item.good_ores.tumbaga_axe": "Hacha de tumbaga",
+      "item.good_ores.livingstone_hoe": "Azada de piedravia",
+      "item.good_ores.platinum_nugget": "Pepita de platino",
+      "item.good_ores.tungsten_block": "Bloque de tungsteno",
+      "tooltip.goodores.passiveregen": "§2Reparacion pasiva",
+      "tooltip.goodores.increasesblockdrops": "§210% de probabilidad de que los bloques suelten mas objetos",
+      "item.good_ores.steel_digger": "Excavadora de acero",
+      "item.good_ores.tumbaga_block": "Tumbaga Block",
+      "item.good_ores.verdite_sword": "Espada de verdita",
+      "item.good_ores.raw_tin": "Estaño crudo",
+      "item.good_ores.bronze_ingot": "Aleacion de bronce",
+      "item.good_ores.reinforced_netherite_armor_chestplate": "Pechera de netherite reforzado",
+      "effect.good_ores.bleeding": "Sangrando",
+      "item.good_ores.platinum_block": "Bloque de platino",
+      "item.good_ores.livingstone_block": "Bloque de piedravia",
+      "item.good_ores.verdite_pickaxe": "Pico de verdita",
+      "item.good_ores.verdite_brick": "Block of Verdite",
+      "item.good_ores.deepslate_tin_ore": "Mineral de estaño",
+      "item.good_ores.bronze_crown_lapiz_helmet": "Corona de bronce (Lapis lazuli)",
+      "item.good_ores.livingstone_armor_chestplate": "Pechera de de piedravia",
+      "item.good_ores.platinum_shovel": "Pala de platino",
+      "tooltip.goodores.platinumharvest": "§2§lPlatino",
+      "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
+      "item.good_ores.tumbaga_hoe": "Azada de tumbaga",
+      "item.good_ores.tungsten_ore": "Mineral de tungsteno",
+      "item.good_ores.tin_ore": "Mineral de estaño",
+      "item.good_ores.livingstone_axe": "Hacha de piedravia",
+      "item.good_ores.verdite_apple": "Manzana de verdita",
+      "item.good_ores.livingstone_plant": "Semilla de piedraviva",
+      "advancements.platinum_ore_advancement.descr": "Funde un lingote de platino",
+      "item.good_ores.steel_grate": "Rejilla de acero",
+      "item.good_ores.raw_platinum_block": "Bloque de platino crudo",
+      "item.good_ores.tin_shovel": "Pala de estaño",
+      "item.good_ores.livingstone_shovel": "Pala de piedravia",
+      "item.good_ores.deepslate_platinum_ore": "Mineral de platino de pizarra profunda",
+      "advancements.have_all_ores_advancement.title": "Have All Ores Advancement",
+      "item.good_ores.heavy_pressure_plate": "Placa de presion de acero",
+      "advancements.tin_pickaxe_advancement.descr": "Crea el primer pico metalico",
+      "item.good_ores.chiseled_tungsten_block": "Block of Tungsten",
+      "item.good_ores.tumbaga_pickaxe": "Pico de tumbaga",
+      "item.good_ores.raw_tungsten": "Tungsteno crudo",
+      "item.good_ores.reinforced_netherite_armor_leggings": "Pantalones de netherite reforzado",
+      "tooltip.goodores.bonusgold_one": "§2+5% Velocidad de movimiento",
+      "tooltip.goodores.setbonus": "Bonus de conjunto:",
+      "item.good_ores.livingstone_armor_leggings": "Pantalones de piedravia",
+      "tooltip.goodores.bonusgold_four": "§2+5% Velocidad de sigilo",
+      "item.good_ores.tumbaga_chisel": "Cincel de Tumbaga",
+      "tooltip.goodores.diamondpower": "§2Daño critico aumenta con monstruos no-muertos",
+      "tooltip.goodores.harvesttier": "Nivel de mineria:",
+      "item.good_ores.tin_axe": "Hacha de estaño",
+      "item.good_ores.steel_pillar": "Pilar de acero",
+      "item.good_ores.lava_sponge": "Lava Sponge",
+      "item.good_ores.livingstone_pickaxe": "Pico de piedravia",
+      "item.good_ores.tumbaga_ingot": "Aleacion de tumbaga"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "QOL",
+            "children": []
+          },
+          {
+            "name": "ToolEffects",
+            "children": []
+          },
+          {
+            "name": "ArmorEffects",
+            "children": []
+          },
+          {
+            "name": "OffHandEffects",
+            "children": []
+          },
+          {
+            "name": "Others",
+            "children": [
+              {
+                "name": "Mod Tooltips",
+                "children": []
+              },
+              {
+                "name": "Global Conditions",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Conditions",
+            "children": []
+          },
+          {
+            "name": "Gameplay",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "QOL",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": []
+          },
+          {
+            "name": "Ingredients",
+            "children": []
+          },
+          {
+            "name": "Combat",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Overrides",
+            "children": []
+          },
+          {
+            "name": "Food",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Tools",
+            "children": [
+              {
+                "name": "Unique Tools",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Ingredients",
+            "children": []
+          },
+          {
+            "name": "Combat",
+            "children": [
+              {
+                "name": "Unique Combat",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Food",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Functional Blocks",
+            "children": []
+          },
+          {
+            "name": "Decorative Blocks",
+            "children": []
+          },
+          {
+            "name": "Natural Blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Trades",
+        "children": []
+      },
+      {
+        "name": "Effects",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Placement Features",
+        "children": [
+          {
+            "name": "Ores",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "LootTables",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "good_ores",
+    "modName": "Orevolution",
+    "version": "1.0.0",
+    "author": "Bexla",
+    "websiteURL": "https://mcreator.net",
+    "license": "Creative Commons Attribution-NonCommercial 4.0",
+    "serverSideOnly": false,
+    "modPicture": "orevolution_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Made with MCreator by Bexla",
+    "modElementsPackage": "net.mcreator.goodores"
+  },
+  "mcreatorVersion": 202500113416
+}
