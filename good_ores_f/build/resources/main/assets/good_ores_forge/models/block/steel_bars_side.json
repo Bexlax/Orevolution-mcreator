@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "particle": "good_ores_forge:block/steel_bars",
+    "edge": "good_ores_forge:block/steel_bars",
+    "pane": "good_ores_forge:block/steel_bars"
+  },
+  "render_type": "cutout_mipped"
+}

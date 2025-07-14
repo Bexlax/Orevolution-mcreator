@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "good_ores_forge:block/polished_aetherrock",
+    "particle": "good_ores_forge:block/polished_aetherrock"
+  },
+  "render_type": "solid"
+}

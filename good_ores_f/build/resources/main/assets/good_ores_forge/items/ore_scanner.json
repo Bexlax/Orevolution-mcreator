@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "good_ores:legacy_overrides",
+    "overrides": [
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "good_ores:ore_scanner/cd"
+            },
+            "value": 0
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "good_ores:item/ore_scanner_0"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "good_ores:ore_scanner/cd"
+            },
+            "value": 1
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "good_ores:item/ore_scanner_1"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "good_ores:item/ore_scanner"
+    }
+  }
+}

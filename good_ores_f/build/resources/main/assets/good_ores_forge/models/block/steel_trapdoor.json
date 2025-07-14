@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "good_ores_forge:block/steel_trapdoor",
+    "particle": "good_ores_forge:block/steel_trapdoor"
+  },
+  "render_type": "cutout"
+}

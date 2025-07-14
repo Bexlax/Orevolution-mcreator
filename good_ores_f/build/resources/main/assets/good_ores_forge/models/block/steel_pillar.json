@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "good_ores_forge:block/steel_pillar_top",
+    "up": "good_ores_forge:block/steel_pillar_top",
+    "north": "good_ores_forge:block/steel_pillar",
+    "east": "good_ores_forge:block/steel_pillar",
+    "south": "good_ores_forge:block/steel_pillar",
+    "west": "good_ores_forge:block/steel_pillar",
+    "particle": "good_ores_forge:block/steel_pillar_top"
+  },
+  "render_type": "solid"
+}

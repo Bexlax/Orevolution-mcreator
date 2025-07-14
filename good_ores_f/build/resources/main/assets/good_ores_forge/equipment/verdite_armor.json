@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "good_ores:verdite_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "good_ores:verdite_armor"
+      }
+    ]
+  }
+}

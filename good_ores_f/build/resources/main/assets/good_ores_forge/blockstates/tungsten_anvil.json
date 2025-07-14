@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "good_ores_forge:block/tungsten_anvil",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "good_ores_forge:block/tungsten_anvil",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "good_ores_forge:block/tungsten_anvil"
+    },
+    "facing=west": {
+      "model": "good_ores_forge:block/tungsten_anvil",
+      "y": 90
+    }
+  }
+}

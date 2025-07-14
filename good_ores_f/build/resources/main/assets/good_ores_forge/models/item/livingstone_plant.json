@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "good_ores_forge:item/livingstone_seed"
+  },
+  "render_type": "translucent"
+}

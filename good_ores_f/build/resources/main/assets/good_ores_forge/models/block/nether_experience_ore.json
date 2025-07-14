@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "good_ores_forge:block/experience_ore_nether",
+    "particle": "good_ores_forge:block/experience_ore_nether"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "good_ores_forge:item/steel_ingot"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "NAME",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 0,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Orevolution]",
+      "[, Orevolution, Source (Gradle)]",
+      "[, Orevolution, Source (Gradle), C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net]",
+      "[, Orevolution, Source (Gradle), C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net, C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net\\mcreator]",
+      "[, Orevolution, Source (Gradle), C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net, C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net\\mcreator, C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net\\mcreator\\goodores]",
+      "[, Orevolution, Source (Gradle), C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net, C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net\\mcreator, C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net\\mcreator\\goodores, C:\\Users\\Tablos\\MCreatorWorkspaces\\good_ores_f\\src\\main\\java\\net\\mcreator\\goodores\\custom]"
+    ]
+  }
+}

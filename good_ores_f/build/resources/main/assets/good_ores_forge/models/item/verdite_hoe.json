@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "good_ores_forge:item/verdite_hoe"
+  }
+}

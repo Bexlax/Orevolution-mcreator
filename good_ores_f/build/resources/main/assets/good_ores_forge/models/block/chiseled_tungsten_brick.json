@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "good_ores_forge:block/tungsten_bricks",
+    "up": "good_ores_forge:block/tungsten_bricks",
+    "north": "good_ores_forge:block/chiseled_tungsten_bricks",
+    "east": "good_ores_forge:block/chiseled_tungsten_bricks",
+    "south": "good_ores_forge:block/chiseled_tungsten_bricks",
+    "west": "good_ores_forge:block/chiseled_tungsten_bricks",
+    "particle": "good_ores_forge:block/tungsten_bricks"
+  },
+  "render_type": "solid"
+}

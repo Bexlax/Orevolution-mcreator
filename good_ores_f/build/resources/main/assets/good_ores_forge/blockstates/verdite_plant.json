@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0": { "model": "good_ores:block/verdite_plant" },
+    "age=1": { "model": "good_ores:block/verdite_plant_1" },
+    "age=2": { "model": "good_ores:block/verdite_plant_2" },
+    "age=3": { "model": "good_ores:block/verdite_plant_3" },
+    "age=4": { "model": "good_ores:block/verdite_plant_4" },
+    "age=5": { "model": "good_ores:block/verdite_plant_5" },
+    "age=6": { "model": "good_ores:block/verdite_plant_6" }
+  }
+}

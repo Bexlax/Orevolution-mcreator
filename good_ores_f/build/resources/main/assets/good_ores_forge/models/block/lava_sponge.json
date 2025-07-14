@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "good_ores:block/lava_sponge",
+    "particle": "good_ores:block/lava_sponge"
+  },
+  "render_type": "solid"
+}

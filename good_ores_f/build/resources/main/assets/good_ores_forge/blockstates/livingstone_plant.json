@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "age=0": { "model": "good_ores:block/livingstone_plant" },
+    "age=1": { "model": "good_ores:block/livingstone_plant_1" },
+    "age=2": { "model": "good_ores:block/livingstone_plant_2" },
+    "age=3": { "model": "good_ores:block/livingstone_plant_3" },
+    "age=4": { "model": "good_ores:block/livingstone_plant_4" }
+  }
+}

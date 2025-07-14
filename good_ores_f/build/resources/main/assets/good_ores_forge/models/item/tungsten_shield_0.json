@@ -1,0 +1,7 @@
+{
+  "parent": "good_ores_forge:custom/shield_block_it",
+  "textures": {
+    "texture": "good_ores_forge:item/shield_tungsten",
+    "particle": "good_ores_forge:item/shield_tungsten"
+  }
+}

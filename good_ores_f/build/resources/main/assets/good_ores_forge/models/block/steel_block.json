@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "good_ores_forge:block/steel_block",
+    "particle": "good_ores_forge:block/steel_block"
+  },
+  "render_type": "solid"
+}

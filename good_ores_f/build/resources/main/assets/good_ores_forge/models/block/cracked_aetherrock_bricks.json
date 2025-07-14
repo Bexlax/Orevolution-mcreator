@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "good_ores_forge:block/cracked_aetherrock_brick",
+    "particle": "good_ores_forge:block/cracked_aetherrock_brick"
+  },
+  "render_type": "solid"
+}

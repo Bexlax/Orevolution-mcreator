@@ -1,0 +1,9 @@
+{
+  "parent": "good_ores_forge:custom/tungsten_anvil",
+  "textures": {
+    "0": "good_ores_forge:block/anvil",
+    "1": "good_ores_forge:block/anvil_top",
+    "2": "good_ores_forge:block/anvil_mid"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "good_ores_forge:custom/shield_it",
+  "textures": {
+    "texture": "good_ores_forge:item/shield_tungsten",
+    "particle": "good_ores_forge:item/shield_tungsten"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "good_ores_forge:item/tungsten_shield_0"
+    }
+  ]
+}

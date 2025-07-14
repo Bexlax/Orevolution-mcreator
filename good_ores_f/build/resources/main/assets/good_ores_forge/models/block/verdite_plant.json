@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "good_ores_forge_forge:block/verdite_plant_stage0",
+    "particle": "good_ores_forge_forge:block/verdite_plant_stage0"
+  },
+  "render_type": "cutout"
+}
